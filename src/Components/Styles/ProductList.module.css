@@ -1,0 +1,81 @@
+/* Styles/ProductList.module.css */
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .buttonGroup {
+    display: flex;
+  }
+  
+  .deleteButton {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c82333;
+  }
+  
+  .viewButton, .editButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  .viewButton:hover, .editButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .addButton {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .addButton:hover {
+    background-color: #218838;
+  }
+  
